@@ -13,7 +13,7 @@ public class SampleController {
     @ResponseBody
     String home(@RequestParam String value) {
 
-        return "Hello World!" + value;
+        return "Hello World 1!" + value;
     }
 
     public static void main(String[] args) throws Exception {
